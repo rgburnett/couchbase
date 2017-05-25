@@ -1,2 +1,2 @@
 # couchbase
-Input Sanitisation Routine for Couchbase
+Input Sanitisation Routine for NiQL Injection attacks against Couchbase databases
