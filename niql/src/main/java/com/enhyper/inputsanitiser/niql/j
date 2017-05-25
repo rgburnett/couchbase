@@ -1,0 +1,1 @@
+javac NiQLRegexTests.java && java -cp . NiQLRegexTests 
