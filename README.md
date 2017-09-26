@@ -1,6 +1,6 @@
-#Couchbase NiQL Input Sanitisation
+#Couchbase NiQL Input Sanitisation#
   
-##Introduction
+##Introduction##
 
 This java library will validate input to protect against NiSQL
 injection attacks. It should be used to validate all input to
@@ -9,7 +9,7 @@ server-side applications and APIs
 It use two techniques: regular expressions and the Aho-Corasick
 Trie which is used to look for keywords in large sets.
 
-##Design 
+##Design##
 
 - A standard regex approach is taken for NiQL injection detection
   of the two most common attacks (comment and 1 = 1).
@@ -18,7 +18,7 @@ Trie which is used to look for keywords in large sets.
   lightweight. It
   is also lazy but the balance towards performance beats the kkkjj
 
-##Future Development
+##Future Development##
 
 An XACML driven NiQL parser to dynamically analyse and modify NiQL
 queries based on XACML specifications for a Role (RBAC.)
@@ -27,6 +27,6 @@ Range Checking per field based on XACML configuration
 
 Configuration sourcing from Hashicorp's Consul.
 
-##Author
+##Author##
 
 Graeme.Burnett@acm.org
